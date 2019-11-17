@@ -14,14 +14,28 @@
 }
 */
 h1 {
-	margin-bottom: 10%;
+  margin-bottom: 10%;
 }
 
 h5 {
-	margin-bottom:5%;
+  margin-bottom: 5%;
 }
 
+.slide:hover {
+  animation: yourAnimation 5s infinite 0s ease-in;
+}
 
-#title-div {	
-	margin-bottom: 50px;
+#title-div {
+  margin-bottom: 50px;
+}
+
+@keyframes yourAnimation {
+  0% {
+    transform: translateX(-200px);
+    opacity: 0.5;
+  }
+  78% {
+    transform: rotate(xx) translateX(0);
+    opacity: 1;
+  }
 }
