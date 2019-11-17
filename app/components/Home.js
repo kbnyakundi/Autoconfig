@@ -28,29 +28,29 @@ export default class Home extends Component<Props> {
 	        	<a className="waves-effect waves-light btn-large slide modal-trigger" href="#modal1">Create React-Flask App</a>
 	        </div>
 	        <div className="row">
-	        	<a className="waves-effect waves-light btn-large slide modal-trigger" href="#modal1">Create React-block App</a>
+	        	<a className="waves-effect waves-light btn-large slide modal-trigger" href="#modal1">Create React-Express App</a>
 	        </div>
 	        <div className="row">
-	        	<a className="waves-effect waves-light btn-large slide modal-trigger"  href="#modal1">Create bosire App</a>
+	        	<a className="waves-effect waves-light btn-large slide modal-trigger"  href="#modal1">Create Git Repository App</a>
+	        </div>
+	         <div className="row">
+	        	<a className="waves-effect waves-light btn-large slide modal-trigger"  href="#modal1">Create Mongo Database App</a>
 	        </div>
 	        <Link to={routes.COUNTER}>A coders best friend.</Link>
 
 	        <div id="modal1" className="modal">
 			    <div className="modal-content">
 			    	<form>
-			    	<div className="row"><h2 className="center-align">Great Choice</h2></div>
+			    	<div className="row"><h2 className="center-align grey-text">Great Choice!</h2></div>
 
 			    	<div className="row">
 			    		<input placeholder="project euler" id="project_name" type="text" className="validate"/>
           				<label htmlFor="project_name">Project Name</label>
 			    	</div>
-
-			      	<h4>Modal Header</h4>
-			      	<p>A bunch of text</p>
 			      </form>
 			    </div>
 			    <div className="modal-footer">
-			      <button onClick={() => runScript} className="modal-close waves-effect waves-green btn-flat">Submit</button>
+			      <button onClick={()=>runScript} className="modal-close waves-effect waves-green btn-flat">Submit</button>
 			    </div>
 			 </div>
       	</div>
