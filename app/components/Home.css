@@ -1,4 +1,4 @@
-.container {
+/* .container {
   position: absolute;
   top: 30%;
   left: 10px;
@@ -11,4 +11,17 @@
 
 .container a {
   font-size: 1.4rem;
+}
+*/
+h1 {
+	margin-bottom: 10%;
+}
+
+h5 {
+	margin-bottom:5%;
+}
+
+
+#title-div {	
+	margin-bottom: 50px;
 }
