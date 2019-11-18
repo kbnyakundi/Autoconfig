@@ -8,7 +8,12 @@
 
 </div>
 
+<h2> Note: This repo is still in development!! </h2>
+<h4> Please come back soon if you're looking for a fully developed version</h4>
+
 An Electron application that allows users to quickly set up development environments. It is based off of Electron React Boilerplate which uses <a href="http://electron.atom.io/">Electron</a>, <a href="https://facebook.github.io/react/">React</a>, <a href="https://github.com/reactjs/redux">Redux</a>, <a href="https://github.com/reactjs/react-router">React Router</a>, <a href="http://webpack.github.io/docs/">Webpack</a> and <a href="https://github.com/gaearon/react-hot-loader">React Hot Loader</a> for rapid application development (HMR).
+
+The electron app works with Ansible to set up enviornments swiftly with the click of a button.
 
 </p>
 
